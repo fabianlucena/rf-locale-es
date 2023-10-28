@@ -1,5 +1,3 @@
-'use strict';
-
 export default {
     messages: {
         yesexpr: '^([sS][iI]|[sS])',

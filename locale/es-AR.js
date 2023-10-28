@@ -1,7 +1,5 @@
-'use strict';
-
 export default {
-    copy: "es",
+    copy: 'es',
     monetary: {
         int_curr_symbol: 'ARS ',
         currency_symbol: '$',
