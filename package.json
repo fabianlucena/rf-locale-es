@@ -4,7 +4,8 @@
   "main": "rf-locale-es.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "Fabian Lucena",
@@ -12,5 +13,9 @@
   "description": "",
   "dependencies": {
     "rf-locale": "file:../rf-locale"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
